@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\GeoIPDB\GeoLite2-City.mmdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaxMind.MinFraud" Version="2.5.0" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+  </ItemGroup>
+
+
+
+</Project>
